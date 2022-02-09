@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    overflow: hidden;
+}
+
+#main-container{
+    border: 3px solid #000000;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------- Header ---------- */
+#header{
+    flex: 2;
+    border: 2px solid #ff3232;
+    
+}
+
+#header-top-content{
+    display: flex;
+    flex: 1;
+}
+
+#logo-zone{
+    flex: 1;
+    border: 1px solid #fa6c6c;
+    margin: 0.5%;
+}
+
+#spacer{
+    flex: 7;
+}
+
+#left-side{
+    flex: 3;
+    border: 1px solid #fa6c6c;
+    margin: 0.5%;
+    display: flex;
+    align-content: center;
+}
+
+.components{
+    flex: 1;
+    border: 1px solid #fa6c6c;
+    margin: 0.5%;
+}
+
+.navbar{
+    flex: 1;
+    border: 1px solid #fa6c6c;
+}
+
+/* ---------- Main content --------- */
+#main-content{
+    flex: 6;
+    border: 2px solid #108e10;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-container{
+    flex: 2;
+    border: 1px solid #bdb812;
+    margin: 0.5%;
+    display: flex;
+}
+
+#tl-content{
+    flex: 1;
+    border: 1px solid #bdb812;
+    margin: 0.5%;
+}
+
+#tr-content{
+    flex: 2;
+    border: 1px solid #bdb812;
+    margin: 0.5%;
+}
+
+#middle-container{
+    flex: 4;
+    border: 1px solid #fa4783;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#middle-top-container{
+    flex: 2;
+    display: flex;
+}
+
+.mt-content{
+    flex: 1;
+    border: 1px solid #fa4783;
+    margin: 0.5%;
+}
+
+#middle-bottom-container{
+    flex: 2;
+    border: 1px solid #fa4783;
+    margin: 0.5%;
+    padding: 0.1%;
+    display: flex;
+}
+
+.mb-content{
+    flex: 1;
+    border: 1px solid #fa4783;
+    margin: 0.5%;
+}
+
+#bottom-container{
+    flex: 2;
+    border: 1px solid #b509b5;
+    margin: 0.5%;
+    display: flex;
+}
+
+#b-left-content{
+    flex: 1;
+    border: 1px solid #b509b5;
+    margin: 0.5%;
+}
+
+#b-right-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2%;
+}
+
+#br-top-content{
+    flex: 1;
+    border: 1px solid #b509b5;
+    margin: 0.5%;
+}
+
+#br-bottom-container{
+    flex: 1;
+    display: flex;
+}
+
+.brb-content{
+    flex: 1;
+    border: 1px solid #b509b5;
+    margin: 0.4%;
+}
+
+/* --------- Footer --------- */
+#footer{
+    flex: 1;
+    border: 2px solid #1104c4;
+    display: flex;
+    margin: 0.5%;
+}
+
+#footer-left-content{
+    flex: 1;
+    border: 1px solid #1104c4;
+    margin: 0.5%;
+}
+
+#f-spacer{
+    flex: 5;
+}
+
+#footer-right-container{
+    flex: 3;
+    border: 1px solid #1104c4;
+    margin: 0.5%;
+    display: flex;
+}
+
+.fr-content{
+    flex: 1;
+    border: 1px solid #1104c4;
+    margin: 0.5%;
+}
